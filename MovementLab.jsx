@@ -411,7 +411,9 @@ const MovementLabApp = () => {
     <div className="min-h-screen bg-[#0e0e0f] text-[#eaeaea]">
       <header className="site-header">
         <div className="header-inner">
-          <img src="images/logo.png" alt="Court to Clinic logo" className="logo" />
+          <a href="index.html" className="logo-link" aria-label="Court to Clinic home">
+            <img src="images/logo.png" alt="Court to Clinic logo" className="logo" />
+          </a>
           <nav className="topnav">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
