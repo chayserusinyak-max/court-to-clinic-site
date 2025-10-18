@@ -5,5 +5,47 @@
     "summary": "See how DNA influences recovery timelines, injury risk, and personalized training strategies so athletes can stay resilient.",
     "link": "posts/post7.html",
     "thumbnail": "images/post7-dna-thumbnail.png"
+  },
+  {
+    "title": "The Invisible Side of Injury Recovery: When Your Brain Prevents You from Moving",
+    "date": "October 6, 2025",
+    "summary": "Discover how protective motor inhibition can linger after an injury and how graded exposure and mirror therapy teach the brain to move confidently again.",
+    "link": "posts/post6.html",
+    "thumbnail": "images/protective_motor_inhibition.svg"
+  },
+  {
+    "title": "Understanding the Kinetic Chain of Athletic Movement and How It Impacts Performance",
+    "date": "October 9, 2025",
+    "summary": "Explore how the kinetic chain keeps athletes moving efficiently and learn training tips to strengthen each link.",
+    "link": "posts/post5.html",
+    "thumbnail": "images/kinetic_chain.svg"
+  },
+  {
+    "title": "How Gait Patterns Influence Injury Risk and What Athletes Can Do to Prevent It",
+    "date": "October 11, 2025",
+    "summary": "Understand how gait mechanics contribute to overuse injuries and learn four practical strategies athletes can use to move more efficiently.",
+    "link": "posts/post4.html",
+    "thumbnail": "images/gait_analysis.svg"
+  },
+  {
+    "title": "How the Body Heals (Muscles, Tendons, Ligaments, and Bones)",
+    "date": "October 12, 2025",
+    "summary": "Learn how muscles, tendons, ligaments, and bones heal — plus evidence-based strategies athletes can use to safely speed recovery and return stronger.",
+    "link": "posts/post1.html",
+    "thumbnail": "images/body_healing.jpg.webp"
+  },
+  {
+    "title": "The Overlooked Foundation: Ankle Training in Youth Sports",
+    "date": "October 12, 2025",
+    "summary": "Discover why ankle strength and balance matter for young athletes and learn drills that keep them healthy.",
+    "link": "posts/post2.html",
+    "thumbnail": "images/ankle_pain.jpg"
+  },
+  {
+    "title": "Modern Recovery Tools: How Science Is Redefining Athletic Recovery",
+    "date": "October 12, 2025",
+    "summary": "A look at compression, cryotherapy, red light, and percussion tools — and what science says about their effects on muscle recovery and performance.",
+    "link": "posts/post3.html",
+    "thumbnail": "images/recovery_tools.jpg"
   }
 ]
