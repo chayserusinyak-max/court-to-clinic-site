@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Movement Lab — Court to Clinic</title>
+  <meta name="description" content="Explore how different sports influence the kinetic chain and discover targeted training strategies in the Court to Clinic Movement Lab." />
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    tailwind = window.tailwind || {};
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            tealAccent: '#00d4b0',
+            midnight: '#0b1214',
+          },
+          boxShadow: {
+            glow: '0 20px 45px -20px rgba(0, 212, 176, 0.35)',
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'Segoe UI', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/framer-motion@10.18.0/dist/framer-motion.umd.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body class="antialiased">
+  <div id="root"></div>
+  <script
+    type="text/babel"
+    data-presets="env,react"
+    src="MovementLab.jsx"
+  ></script>
+</body>
+</html>

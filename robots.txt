@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://courttoclinic.com/sitemap.xml

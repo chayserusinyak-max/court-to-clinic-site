@@ -1,0 +1,50 @@
+:root{
+  --bg:#0e0e0f; --card:#141414; --muted:#9aa0a6; --accent:#00d4b0;
+  color-scheme: dark;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;background:var(--bg);color:#eaeaea;line-height:1.6}
+
+a{color:inherit}
+
+.site-header{border-bottom:1px solid #202020;background:#111}
+.header-inner{max-width:1100px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between}
+.logo{height:44px}
+.topnav a{color:var(--muted);text-decoration:none;margin-left:18px;font-weight:600}
+.topnav a:hover,.topnav a.active{color:#fff}
+
+.intro{max-width:900px;margin:26px auto 10px;padding:0 20px}
+.intro h1{margin:0 0 6px 0;color:#fff;font-size:clamp(2rem,4vw+1rem,3.2rem);line-height:1.1}
+.intro p{margin:0;color:#d6d6d6}
+
+.post-list{max-width:1100px;margin:16px auto 40px;padding:0 20px}
+.post-card{display:flex;gap:18px;background:var(--card);padding:16px;border-radius:12px;margin:16px 0;align-items:center;transition:transform .15s ease}
+.post-card:hover{transform:translateY(-3px)}
+.post-card img.thumb{width:220px;height:140px;object-fit:cover;border-radius:10px;flex:0 0 220px;border:1px solid #1f1f1f}
+.post-info h2{margin:0 0 6px 0;font-size:1.15rem}
+.post-info h2 a{color:var(--accent);text-decoration:none}
+.post-info h2 a:hover{opacity:.9}
+.post-info .date{font-size:.85rem;color:var(--muted);margin-bottom:8px}
+.post-info p{margin:0;color:#d6d6d6}
+
+.loading{color:var(--muted);text-align:center}
+.error{color:#ff9b9b;text-align:center}
+
+.post-main{max-width:900px;margin:30px auto;padding:0 20px}
+.post-article{background:var(--card);border-radius:12px;padding:20px}
+.post-article h1{margin-top:0;color:#fff}
+.post-article h2{color:#fff;margin-top:24px;margin-bottom:12px;font-size:1.2rem}
+.byline{color:var(--muted)}
+.post-article p{margin-bottom:16px}
+.post-hero{margin:24px 0;display:flex;justify-content:center}
+.post-hero img{max-width:100%;height:auto;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,.25)}
+.post-article ol{margin:0 0 16px 20px}
+.back-link{display:inline-block;margin-bottom:18px;color:var(--accent);font-weight:600;text-decoration:none}
+.back-link:hover{text-decoration:underline}
+
+.site-footer{border-top:1px solid #202020;background:#111;color:#888;text-align:center;padding:16px}
+
+@media (max-width:720px){
+  .post-card{flex-direction:column;align-items:flex-start}
+  .post-card img.thumb{width:100%;height:200px}
+}
