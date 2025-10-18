@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Stylized illustration of gait analysis</title>
+  <desc id="desc">Abstract lines showing a runner's stride and force pathways to represent gait mechanics.</desc>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e3f2fd" />
+      <stop offset="100%" stop-color="#bbdefb" />
+    </linearGradient>
+    <linearGradient id="stride" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d47a1" />
+      <stop offset="100%" stop-color="#42a5f5" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bgGradient)" />
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M120 620 C 260 520, 320 480, 420 500 S 620 600, 780 540 S 980 360, 1100 420" stroke="#90caf9" stroke-width="28" />
+    <path d="M160 560 C 260 420, 420 380, 560 440 S 880 620, 1040 460" stroke="url(#stride)" stroke-width="34" />
+    <path d="M220 640 C 360 700, 520 700, 680 640" stroke="#1e88e5" stroke-width="20" opacity="0.6" />
+  </g>
+  <g fill="#0d47a1" opacity="0.8">
+    <circle cx="280" cy="560" r="22" />
+    <circle cx="520" cy="500" r="22" />
+    <circle cx="760" cy="560" r="22" />
+    <circle cx="980" cy="460" r="22" />
+  </g>
+  <g fill="#1a237e" opacity="0.15">
+    <circle cx="280" cy="560" r="90" />
+    <circle cx="520" cy="500" r="90" />
+    <circle cx="760" cy="560" r="90" />
+    <circle cx="980" cy="460" r="90" />
+  </g>
+</svg>

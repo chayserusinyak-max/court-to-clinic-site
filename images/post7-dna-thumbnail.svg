@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .stroke {
+        fill: none;
+        stroke: #111;
+        stroke-width: 10;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>DNA double helix icon</title>
+  <path class="stroke" d="M32 8c24 18 40 30 64 44" />
+  <path class="stroke" d="M32 120c24-18 40-30 64-44" />
+  <path class="stroke" d="M32 8c0 30 0 82 32 112" />
+  <path class="stroke" d="M96 8c0 30 0 82-32 112" />
+  <line class="stroke" x1="40" y1="24" x2="88" y2="24" />
+  <line class="stroke" x1="40" y1="48" x2="88" y2="48" />
+  <line class="stroke" x1="40" y1="80" x2="88" y2="80" />
+  <line class="stroke" x1="40" y1="104" x2="88" y2="104" />
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">Stylized illustration of the kinetic chain in athletic movement</title>
+  <desc id="desc">Abstract circles connected by lines showing how energy transfers through the body during sport.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c4a6e" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#bg)" rx="24" />
+  <g fill="none" stroke="#f8fafc" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M80 300C130 220 200 160 320 150" />
+    <path d="M320 150C410 140 470 180 540 120" opacity="0.7" />
+    <path d="M120 220C210 200 290 220 360 260" opacity="0.5" />
+  </g>
+  <g fill="#f8fafc" opacity="0.95">
+    <circle cx="80" cy="300" r="26" />
+    <circle cx="160" cy="220" r="22" />
+    <circle cx="240" cy="180" r="20" />
+    <circle cx="320" cy="150" r="28" />
+    <circle cx="400" cy="190" r="20" />
+    <circle cx="480" cy="160" r="22" />
+    <circle cx="560" cy="120" r="26" />
+  </g>
+  <text x="50%" y="360" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', Arial, sans-serif" font-size="32" fill="#e0f2fe" letter-spacing="2">
+    KINETIC CHAIN
+  </text>
+</svg>
